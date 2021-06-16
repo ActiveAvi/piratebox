@@ -1,0 +1,45 @@
+{
+  "dependencies": {
+    "autoprefixer": "^10.2.6",
+    "imagemin-gifsicle": "^7.0.0",
+    "imagemin-mozjpeg": "^9.0.0",
+    "imagemin-optipng": "^8.0.0",
+    "imagemin-svgo": "^9.0.0",
+    "next": "^10.2.3",
+    "next-compose-plugins": "^2.2.1",
+    "next-optimized-images": "^2.6.2",
+    "react": "^17.0.2",
+    "react-accessible-accordion": "^3.3.4",
+    "react-dom": "^17.0.2",
+    "react-reveal": "^1.2.2",
+    "react-router-dom": "^5.2.0",
+    "react-router-hash-link": "^2.4.3",
+    "react-tabbordion": "^1.0.6"
+  },
+  "name": "piratebox",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "postcss": "^8.2.13",
+    "postcss-preset-env": "^6.7.0",
+    "tailwindcss": "^2.1.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next",
+    "build": "next build",
+    "export": "next export"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ActiveAvi/piratebox.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ActiveAvi/piratebox/issues"
+  },
+  "homepage": "https://github.com/ActiveAvi/piratebox#readme"
+}
