@@ -29,15 +29,14 @@ export default function Root() {
           <Contest />
         </Fade>
       </div>
-
-      <div id='prizes'>
-        <Prizes />
-      </div>
-
       <div id='howto'>
         <Fade>
           <HowTo />
         </Fade>
+      </div>
+
+      <div id='prizes'>
+        <Prizes />
       </div>
 
       <div id='submit'>

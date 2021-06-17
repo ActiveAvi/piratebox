@@ -7,6 +7,7 @@ const classes = {
   body: 'px-8',
   subheader: 'text-h-1 opacity-80 font-mono',
   list: 'list-disc list-inside',
+  link: 'text-h-1 opacity-80',
 }
 
 export default function Contest() {
@@ -39,9 +40,30 @@ export default function Contest() {
             Packaging & Presentation, who has the best marketing and promotion
           </li>
           <li>Best examples of Liberty Library content or custom software</li>
+          <li>
+            Best Pirate Chain (ARRR) integration, other crypto solutions such as
+            payment gateways
+          </li>
+          <li>Best use of Pirate Box for private IPFS networks</li>
         </ul>
         <br />
-        <h3 className={classes.subheader}>Dates:</h3>
+
+        <h3 className={classes.subheader}>Entry Requirments</h3>
+        <p>All entries must meet the following requirments:</p>
+        <ul className={classes.list}>
+          <li>
+            All software must be open source. We prefer it be licensed under
+            bip-cot, no-gov license. >>
+            <a className={classes.link} href='https://bipcot.org' alt='bip-cot'>
+              bipcot.org/
+            </a>
+          </li>
+          <li>A link to the source code</li>
+          <li>A link to a video demonstrating the features</li>
+        </ul>
+
+        <br />
+        <h3 className={classes.subheader}>Dates</h3>
         <p>
           <b>August 1th</b> - deadline for all entries. Entries must be
           submitted and available to the judges by this date. <br />

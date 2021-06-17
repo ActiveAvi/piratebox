@@ -1,7 +1,7 @@
 import Container from './container'
 
 const classes = {
-  section: '',
+  section: 'p-4',
   header: 'text-h-1 font-mono text-2xl font-bold lowercase mb-4',
   subheader: 'px-4 py-1',
   inner: 'px-3',

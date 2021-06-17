@@ -14,6 +14,7 @@ let mailchimpEmbed = `<!-- Begin Mailchimp Signup Form -->
 <style type="text/css">
 	#mc_embed_signup{background:#000; clear:left; font:14px Helvetica,Arial,sans-serif; }
   input{color:black;}
+  .description {width: 100%;}
 	/* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
 	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
 </style>
@@ -39,7 +40,7 @@ let mailchimpEmbed = `<!-- Begin Mailchimp Signup Form -->
 <div class="mc-field-group">
 	<label for="mce-MMERGE8">Description  <span class="asterisk">*</span>
 </label>
-	<input type="text" value="" name="MMERGE8" class="required" id="mce-MMERGE8">
+	<textarea type="text" value="" name="MMERGE8" class="required description" id="mce-MMERGE8" rows=6></textarea>
 </div>
 <div class="mc-field-group">
 	<label for="mce-VIDEO">Video url  <span class="asterisk">*</span>

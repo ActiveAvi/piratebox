@@ -8,7 +8,7 @@ const classes = {
   item: 'py-20 w-64',
   title: 'text-lg text-h-1 font-bold py-1 uppercase font-mono',
   body: '',
-  img: ' shadow-sm  my-4 rounded-md transition opacity-20 border-dotted border-4 border-background hover:opacity-100 hover:shadow-lg',
+  img: ' shadow-sm  my-4 rounded-md transition opacity-40 border-dotted border-4 border-background hover:opacity-70 hover:shadow-lg',
 }
 
 export default function Prizes() {
