@@ -6,8 +6,10 @@ module.exports = {
   theme: {
     textColor: {
       primary: '#fff6ef',
-      'h-1': '#ff7503',
+      'h-1': '#FFD700',
       black: colors.black,
+      'reel-500': '#ec0024',
+      'reel-400': '#ff1438',
     },
     extend: {
       height: {
@@ -21,10 +23,12 @@ module.exports = {
       },
       colors: {
         yellow: colors.amber,
-        darkbrown: '#2a1300',
-        'graybrown-900': '#261e18',
-        'graybrown-800': '#322720',
-        background: '#170a00',
+        brightyellow: '#FFD700',
+        darkbrown: '#271417',
+        'graybrown-900': '#271417',
+        'graybrown-800': '#271417',
+        'reel-500': 'ec0024',
+        background: '#140003',
         black: colors.black,
       },
       boxShadow: {

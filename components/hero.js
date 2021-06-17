@@ -8,6 +8,7 @@ const classes = {
   description: 'text-lg',
   button: 'text-lg',
   imgBox: 'w-min justify-self-end p-4',
+  link: 'bg-brightyellow text-black p-1 my-2',
 }
 
 export default function Hero() {
@@ -24,15 +25,17 @@ export default function Hero() {
         <h1
           className={classes.header}
           style={{ textShadow: ' 4px 2px 4px #000000, 4px 2px 4px #000000' }}>
-          PirateBox Dev Contest
+          Pirate Box Dev Contest
         </h1>
         <p className={classes.description}>
           Want to contribute to a project to protect Creative Content from
           censorship, while simultaneously lowering storage costs and having
           performance scale with traffic? You can help by creating custom
-          software to run on the PirateBox.
+          software to run on the Pirate Box.
         </p>
-        <a className={classes.submitLink}>Learn More</a>
+        <a href='#contest'>
+          <button className={classes.link}>Learn More</button>
+        </a>
       </div>
     </section>
   )
