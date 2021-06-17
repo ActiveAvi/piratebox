@@ -1,6 +1,6 @@
 const classes = {
   section:
-    ' text-sm text-white grid sm:grid-cols-2 justify-center content-center justify-items-center py-20 msm:pt-40 h-screen',
+    ' text-sm text-white grid sm:grid-cols-2 justify-center content-center justify-items-center py-20 msm:pt-40 sm:h-screen',
   heroBox:
     'msm:max-w-sm sm:max-w-xl px-4 sm:w-96 justify-self-start p-4 mt-20 sm:mt-40 sm:ml-4',
   heroImg: 'bg-center bg-auto bg-no-repeat sm:w-96 lg:w-32r msm:w-80 max-w-lg ',

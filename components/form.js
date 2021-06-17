@@ -1,7 +1,7 @@
 import Container from './container'
 
 const classes = {
-  form: 'px-8',
+  form: 'px-3',
   header: 'text-h-1 font-mono text-2xl font-bold lowercase mb-4',
   title: '',
   input: 'text-black',
@@ -72,7 +72,9 @@ export default function Form() {
         style={{ textShadow: ' 4px 2px 4px #000000, 4px 2px 4px #000000' }}>
         ::Submit your entry
       </h2>
-      <div dangerouslySetInnerHTML={{ __html: mailchimpEmbed }}></div>
+      <div
+        className={classes.form}
+        dangerouslySetInnerHTML={{ __html: mailchimpEmbed }}></div>
     </Container>
   )
 }

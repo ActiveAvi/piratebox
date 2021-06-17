@@ -1,6 +1,6 @@
 const classes = {
   section: 'px-4',
-  descriptionBox: ' max-w-2xl m-auto my-32 py-10 sm:px-10',
+  descriptionBox: ' max-w-2xl m-auto my-20 py-10 sm:px-10',
 }
 
 export default function Container(props) {

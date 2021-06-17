@@ -12,6 +12,9 @@ module.exports = {
       'reel-400': '#ff1438',
     },
     extend: {
+      spacing: {
+        92: '92%',
+      },
       height: {
         '95h': '95vh',
       },
@@ -26,8 +29,8 @@ module.exports = {
         brightyellow: '#FFD700',
         darkbrown: '#271417',
         'graybrown-900': '#271417',
-        'graybrown-800': '#271417',
-        'reel-500': 'ec0024',
+        'graybrown-800': '#3b0009',
+        'reel-500': '#ec0024',
         background: '#140003',
         black: colors.black,
       },
@@ -39,5 +42,5 @@ module.exports = {
   variants: {
     extend: {},
   },
-  plugins: [],
+  plugins: [require('tailwind-scrollbar')],
 }

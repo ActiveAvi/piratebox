@@ -18,9 +18,9 @@ export default function Description() {
       <div className={classes.body}>
         <h3 className={classes.subheader}>out of the box ipfs solution</h3>
         <p>
-          Pirate Box is a custom built computer loaded with software to enable
-          the owner to easily store and access data on IPFS, coupled with open
-          source tools to enhance user experience.
+          Pirate Box is a custom built Raspberry Pi 4 computer, loaded with
+          software to enable the owner to easily store and access data on IPFS,
+          coupled with open source tools to enhance user experience.
         </p>
       </div>
     </Container>

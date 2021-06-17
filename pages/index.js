@@ -5,6 +5,7 @@ import Nav from '../components/nav'
 import Contest from '../components/contest'
 import Prizes from '../components/prizes'
 import HowTo from '../components/howto'
+import Subscribe from '../components/subscribe'
 
 import Fade from 'react-reveal/Fade'
 
@@ -42,6 +43,12 @@ export default function Root() {
       <div id='submit'>
         <Fade>
           <Form />
+        </Fade>
+      </div>
+
+      <div id='subscribe'>
+        <Fade>
+          <Subscribe />
         </Fade>
       </div>
     </main>

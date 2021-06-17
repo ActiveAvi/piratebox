@@ -6,7 +6,7 @@ const classes = {
   header: 'w-max m-auto text-h-1 font-mono text-3xl font-bold lowercase mb-14',
   top: 'sm:col-span-3',
   item: 'py-20 w-64',
-  title: 'text-lg text-h-1 font-bold py-1 uppercase',
+  title: 'text-lg text-h-1 font-bold py-1 uppercase font-mono',
   body: '',
   img: ' shadow-sm  my-4 rounded-md transition opacity-20 border-dotted border-4 border-background hover:opacity-100 hover:shadow-lg',
 }
