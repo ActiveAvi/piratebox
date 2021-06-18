@@ -14,6 +14,7 @@ let mailchimpEmbed = `<!-- Begin Mailchimp Signup Form -->
 <style type="text/css">
 	#mc_embed_signup{background:#000; clear:left; font:14px Helvetica,Arial,sans-serif; }
   input{color:black;}
+  textarea{color:black;}
   .description {width: 100%;}
 	/* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
 	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */

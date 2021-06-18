@@ -6,6 +6,7 @@ import Contest from '../components/contest'
 import Prizes from '../components/prizes'
 import HowTo from '../components/howto'
 import Subscribe from '../components/subscribe'
+import Community from '../components/community'
 
 import Fade from 'react-reveal/Fade'
 import Footer from '../components/footer'
@@ -30,6 +31,13 @@ export default function Root() {
           <Contest />
         </Fade>
       </div>
+
+      <div id='community'>
+        <Fade>
+          <Community />
+        </Fade>
+      </div>
+
       <div id='howto'>
         <Fade>
           <HowTo />

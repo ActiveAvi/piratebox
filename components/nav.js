@@ -9,9 +9,11 @@ const classes = {
   innerNav: 'p-4 bg-opacity-90 bg-background sm:shadow-sm',
   button: 'sm:hidden bg-opacity-60 bg-background p-1 rounded-md m-1',
   item: 'py-2 hover:text-h-1',
-  image: 'sm:w-32 opacity-60',
-  brand: '',
-  brandBox: 'bg-opacity-60 bg-background text-xl font-mono text-h-1 font-bold',
+  image: 'sm:w-40 opacity-60',
+  img: 'w-10 inline-block mx-2 transition opacity-40 hover:opacity-80',
+  imagebox: 'p-2 bg-background',
+  brandBox:
+    'bg-opacity-60 bg-background text-xl font-mono text-h-1 font-bold p-1',
 }
 
 export default function Nav() {
@@ -37,6 +39,9 @@ export default function Nav() {
               <a>contest</a>
             </Link>
           </li>
+          {/* <li className={classes.item}>
+            <a href='#community'>community</a>
+          </li> */}
           <li className={classes.item}>
             <Link href='#prizes'>
               <a>prizes</a>
@@ -53,6 +58,25 @@ export default function Nav() {
             </Link>
           </li>
         </ul>
+        <div className={classes.imagebox}>
+          {' '}
+          <a href='https://discord.gg/rMvnyD9aDb'>
+            <img
+              className={classes.img}
+              src={require('../images/icons8-discord.svg')}
+              alt='discord'
+            />
+          </a>
+          <a href='https://t.me/PirateBoxContest'>
+            <img
+              className={classes.img}
+              src={require('../images/icons8-telegram-app.svg')}
+              alt='discord'
+            />
+          </a>
+        </div>
+
+        <br />
         <button className={classes.button} onClick={() => setShow(!show)}>
           {show ? 'close menu' : 'open menu'}
         </button>

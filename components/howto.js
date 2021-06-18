@@ -10,7 +10,7 @@ import {
 } from 'react-accessible-accordion'
 
 const classes = {
-  section: 'bg-center bg-cover px-4 sm:py-32 h-70r',
+  section: 'bg-center bg-cover px-4 h-70r',
   sectioninner: 'max-w-2xl m-auto my-20 py-10 sm:px-10',
   accord: 'max-w-xl m-auto mx-6',
   itemh: 'p-4 m-1 rounded-sm text-md font-mono uppercase',
@@ -18,10 +18,10 @@ const classes = {
   header: 'text-h-1 font-mono text-2xl font-bold lowercase mb-4 font-mono',
   list: 'list-disc list-inside',
   listitem: '',
-  link: 'text-h-1 opacity-60',
+  link: 'text-h-1 transition opacity-60 hover:opacity-100',
   discord: 'text-lg text-black bg-brightyellow p-2 rounded',
   code: 'bg-darkbrown p-2 my-2 overflow-x-auto text-h-1 opacity-60 scrollbar scrollbar-thumb-reel-500 scrollbar-track-darkbrown pb-6',
-  img: 'opacity-30',
+  img: 'py-10 px-4 opacity-40 max-w-xs m-auto',
 }
 
 export default function HowTo() {
@@ -74,12 +74,6 @@ export default function HowTo() {
                   Documentation
                 </a>
               </p>
-              <br />
-              <a href='https://discord.gg/rMvnyD9aDb'>
-                <button className={classes.discord}>
-                  Join our Discord community for support!
-                </button>
-              </a>
             </AccordionItemPanel>
           </AccordionItem>
           <AccordionItem>
@@ -103,11 +97,14 @@ export default function HowTo() {
               <p>
                 We recommend using the bip-cot license for your open source
                 project. Check it out >{' '}
-                <a href='https://bipcot.org/'>bipcot.org/</a>.
+                <a className={classes.link} href='https://bipcot.org/'>
+                  bipcot.org/
+                </a>
+                .
               </p>
               <img
                 className={classes.img}
-                src={require('../images/pirateFlag.png')}
+                src={require('../images/hat.png')}
                 alt='pirate skull'
               />
             </AccordionItemPanel>

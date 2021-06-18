@@ -7,7 +7,7 @@ const classes = {
   body: 'px-8',
   subheader: 'text-h-1 opacity-80 font-mono',
   list: 'list-disc list-inside',
-  link: 'text-h-1 opacity-80',
+  link: 'text-h-1 transition opacity-80 hover:opacity-100',
 }
 
 export default function Contest() {
