@@ -2,7 +2,7 @@ import Container from './container'
 
 const classes = {
   header: 'text-h-1 font-mono text-2xl font-bold lowercase mb-4 font-mono',
-  flexbox: 'flex flex-wrap justify-center gap-20',
+  flexbox: 'flex flex-wrap justify-center sm:gap-20',
   service: 'p-8 text-center transition opacity-80 hover:opacity-100',
   title: 'text-h-1 opacity-60',
   img: 'h-32 m-auto my-2',
