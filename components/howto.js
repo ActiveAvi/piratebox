@@ -59,7 +59,8 @@ export default function HowTo() {
                   https://gateway.ipfs.io/ipfs/QmUMYgPeVyALDSrephhRQykj7sV9JixDUBeJZBB6FWrUgN
                 </div>{' '}
                 <br />
-                from a logged in IPFS account. The <b>sha256sum</b> verification
+                from any web browser, alternatively it can be viewed from IPFS
+                Desktop or IPFS Companion. The <b>sha256sum</b> verification
                 hash is:
                 <div className={classes.code}>
                   2a91800da22cdeafe01fa88535192006b4f87808408902c61b7f1f2c65cd84e1
