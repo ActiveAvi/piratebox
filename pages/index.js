@@ -8,6 +8,7 @@ import HowTo from '../components/howto'
 import Subscribe from '../components/subscribe'
 
 import Fade from 'react-reveal/Fade'
+import Footer from '../components/footer'
 
 const classes = {
   main: 'text-primary',
@@ -50,6 +51,8 @@ export default function Root() {
           <Subscribe />
         </Fade>
       </div>
+
+      <Footer />
     </main>
   )
 }

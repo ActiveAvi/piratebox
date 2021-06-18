@@ -17,6 +17,7 @@ module.exports = {
       },
       height: {
         '95h': '95vh',
+        '70r': '70rem',
       },
       width: {
         '32r': '32rem',

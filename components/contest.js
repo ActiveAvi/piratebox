@@ -27,6 +27,10 @@ export default function Contest() {
           it. We want to see what you think the Pirate Box is capable of.
         </p>
         <br />
+        <h3 className={classes.prize}>
+          Over $2500 in prizes to be awarded to the winners!
+        </h3>
+        <br />
         <h3 className={classes.subheader}>Criteria for Judging</h3>
         <ul className={classes.list}>
           <li>Uses of Pirate Box that showcase IPFS</li>
@@ -53,7 +57,7 @@ export default function Contest() {
         <ul className={classes.list}>
           <li>
             All software must be open source. We prefer it be licensed under
-            bip-cot, no-gov license. >>
+            bip-cot, no-gov license.{' '}
             <a className={classes.link} href='https://bipcot.org' alt='bip-cot'>
               bipcot.org/
             </a>
@@ -67,13 +71,14 @@ export default function Contest() {
         <p>
           <b>August 1th</b> - deadline for all entries. Entries must be
           submitted and available to the judges by this date. <br />
-          <b>August 7th</b> - judging begins. Want to join us in person? Check
-          out the Jackalope Freedom festival that we'll be at!
-          <br />
-          <br />
-          <h3 className={classes.prize}>
-            Over $2500 in prizes to be awarded to the winners!
-          </h3>
+          <b>August 7th</b> - judging ends. Want to join us in person when we
+          announce the top entries? Check out the{' '}
+          <a
+            className={classes.link}
+            href='https://jackalopefreedomfestival.com/'>
+            Jackalope Freedom festival
+          </a>{' '}
+          that we'll be at!
         </p>
       </div>
     </Container>
