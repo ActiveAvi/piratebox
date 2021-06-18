@@ -43,13 +43,13 @@ export default function Nav() {
             <a href='#community'>community</a>
           </li> */}
           <li className={classes.item}>
-            <Link href='#prizes'>
-              <a>prizes</a>
+            <Link href='#howto'>
+              <a>how to</a>
             </Link>
           </li>
           <li className={classes.item}>
-            <Link href='#howto'>
-              <a>how to</a>
+            <Link href='#prizes'>
+              <a>prizes</a>
             </Link>
           </li>
           <li className={classes.item}>
