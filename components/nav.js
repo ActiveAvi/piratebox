@@ -7,9 +7,10 @@ const classes = {
       show ? '' : 'msm:-translate-y-92'
     } z-20 transition duration-300 transform fixed msm:inset-x-0 sm:right-0 top-0 sm:pr-4 sm:mt-4 text-center `,
   innerNav: 'p-4 bg-opacity-90 bg-background sm:shadow-sm',
-  button: 'sm:hidden bg-opacity-60 bg-background p-1 rounded-md m-1',
-  item: 'py-2 hover:text-h-1',
-  image: 'sm:w-40 opacity-60',
+  button:
+    'sm:hidden bg-opacity-80 border border-red-400 bg-background p-1 rounded-md m-1',
+  item: 'py-1 sm:py-2 hover:text-h-1',
+  image: 'w-40 msm:mx-auto opacity-60',
   img: 'w-10 inline-block mx-2 transition opacity-40 hover:opacity-80',
   imagebox: 'p-2 bg-background',
   brandBox:
